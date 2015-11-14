@@ -1,0 +1,113 @@
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#mainHero {
+	background: url("https://unsplash.com/photos/cgwySFuXiLg/download");
+	background-size: 100% 100%;
+	padding: 60px;
+	color: white;
+}
+#mainHero img {
+	height: 80px;
+}
+#mainHero nav {
+	border-radius: 0px;
+	background-color: #2C3539;
+	border: none;
+}
+#menuItems {
+	padding-right: 0px;
+}
+#menuItems li:first-of-type {
+	background-color: #FFDB58;
+	color: #2C3539;
+}
+#menuItems li:first-of-type a {
+	color: #2C3539;
+}
+#menuItems li {
+	padding-bottom: 5px;
+}
+#menuItems a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 10px;
+  background-color: #FFDB58;
+  content: "";
+  transition: width 0.2s;
+}
+#menuItems a:hover:after {
+  width: 100%;
+}
+.grayMenuItems {
+	background-color: #848482;
+}
+#menuItems li.grayMenuItems a:hover:after {
+	width: 0;
+}
+#mainHero li a {
+	color: white;
+	width: 115px;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 160px;
+	font-weight: bold;
+	line-height: .8;
+}
+h2 {
+	font-size: 15px;
+	text-align: center;
+}
+.newsLink {
+	padding-top: 20px;
+	text-align: center;
+}
+.newsLink a {
+	color: yellow;
+}
+.newsLink a:hover {
+	text-decoration: none;
+}
+#caseStudies {
+	padding: 130px;
+}
+#caseStudies .row {
+	margin: 0px;
+	padding-left: 100px;
+}
+#caseStudies h1,#caseStudies h2 {
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: left;
+}
+#caseStudies .newsLink {
+	text-align: left;
+}
+#servicesHero {
+	padding: 40px;
+}
+#servicesHero p{
+	margin-top: 30px;
+}
+#services {
+	padding-top: 225px;
+}
+#services h1 {
+	font-size: 30px;
+}
+#services li {
+	padding: 60px 30px;
+}
+#partners li {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#partners ul {
+	margin-top: 100px;
+}

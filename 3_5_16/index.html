@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Starter Template for Bootstrap</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+		article {
+			padding: 50px 0 0 0;
+		}
+		footer {
+			border: 1px solid blue;
+		}
+		nav {
+			border: 1px solid green;
+		}
+		#aboutMe {
+			margin-top: 125px;
+			height: 500px;
+			background: white;
+			padding: 0px;
+			box-shadow: 0 0 5px #888;
+		}
+		#aboutMe > div.row {
+			padding: 50px 50px 40px 50px;
+		}
+		#description a {
+			border: 1px solid black;
+			border-radius: 5px;
+			padding: 10px;
+			width: 300px;
+			margin-bottom: 40px;
+			text-align: center;
+		}
+		#description {
+			margin-top: 70px;
+			text-align: center;
+		}
+		main {
+			background-image: url(./img/background.jpg);
+			background-size: 100%;
+			background-repeat: no-repeat;
+			background-position: -300px 0 0 0;
+		}
+		#socialLinks {
+			background-color: red; 
+			width: 100%;
+			padding: 30px;
+		}
+	</style>
+  </head>
+
+  <body>
+
+  <main>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+      <a class="navbar-brand" href="#">Brand</a>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav navbar-right">
+			<li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
+			<li><a href="#">Skills</a></li>
+			<li><a href="#">Portfolio</a></li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<div class="container">
+		<article id="aboutMe" class="container col-md-offset-1 col-md-9">
+			<div class="row">
+				<img src="./img/portrait.jpg" class="col-md-5 hidden-xs"/>
+				<header class="col-md-7">
+					<h1><span>I'm</span> Michael Minella</h1>
+					<h2>Spring Developer</h2>
+					<hr/>
+				</header>
+				<div class="col-md-7">
+					<div class="row">
+						<div class="col-md-3">age</div>
+						<div class="col-md-9">38</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">address</div>
+						<div class="col-md-9">123 4th Street</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">e-mail</div>
+						<div class="col-md-9">michael@michaelminella.com</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">phone</div>
+						<div class="col-md-9">1 (123) 456-7890</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">freelance</div>
+						<div class="col-md-9">til March 25, 2016</div>
+					</div>
+				</div>
+			</div>
+			<div id="socialLinks" class="text-center col-md-12">
+				Social links
+			</div>
+		</article>
+		<article id="description" class="col-md-offset-1 col-md-9">
+			<a href="#">Download Resume</a>
+			<p class="text-center">Bacon ipsum dolor amet shankle kielbasa kevin, fatback deserunt alcatra ea sirloin jowl. Minim sausage corned beef reprehenderit, drumstick cillum hamburger ad meatball do excepteur ut beef chicken. Fugiat bacon in pig cillum pariatur filet mignon leberkas dolore sausage ribeye consectetur brisket. Nulla chuck shankle sunt aliqua ham hock ribeye. Deserunt sunt shankle sausage.</p>
+		</article>
+		<article class="col-md-offset-1 col-md-9">
+			<header class="text-center">Skills</header>
+			Skills graphs
+		</article>
+		<article class="col-md-offset-1 col-md-9">
+			<header class="text-center">Portfolio</header>
+			Portfolio widget
+		</article>
+		<footer class="col-md-offset-1 col-md-9">
+			This is my footer
+		</footer>
+	</div>
+	
+  </main>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>  
+	</body>
+</html>
